@@ -2,11 +2,21 @@
 
 ## Cursor Cloud specific instructions
 
-This repository (`MBNECOMSERVICES`) is currently empty — it contains only a `README.md` placeholder. There are no services, dependencies, build systems, or runnable applications at this time.
+This is a **Next.js 16** website for MBNECOM LLC, built with TypeScript and Tailwind CSS v4.
 
-- **No dependencies** to install (no `package.json`, `requirements.txt`, `go.mod`, etc.).
-- **No services** to start.
-- **No lint, test, or build commands** available.
-- **No dev server** to run.
+### Key commands
 
-When source code is added, update this section with instructions for installing dependencies, running services, and testing.
+| Task | Command |
+|------|---------|
+| Dev server | `npm run dev` (port 3000) |
+| Build | `npm run build` |
+| Lint | `npm run lint` |
+| Start prod | `npm run start` |
+
+### Non-obvious notes
+
+- **Next.js 16** removed the built-in `next lint` command. Linting uses ESLint 9 flat config directly (`eslint .`).
+- Tailwind CSS v4 uses `@import "tailwindcss"` and `@theme` blocks in `globals.css` instead of the older `tailwind.config.js` approach.
+- PostCSS config uses `@tailwindcss/postcss` plugin (not the legacy `tailwindcss` plugin).
+- The contact form is client-side only (no backend API). To add real form handling, implement a server action or API route.
+- The site links to the company LinkedIn at `https://www.linkedin.com/company/mbn-llc`.
