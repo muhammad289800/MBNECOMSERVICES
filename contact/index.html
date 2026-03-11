@@ -32,7 +32,31 @@
           <h1>Contact Us</h1>
           <p>
             Reach out to discuss AI automations, IT optimization, and technology planning for your company.
+            Use the service intake form below so we can prepare the right proposal for your business.
           </p>
+          <div class="cards" style="margin-top: 1rem">
+            <article class="card">
+              <h3>Project-Based Services</h3>
+              <p>
+                For businesses that need one-time implementation of AI automation, IT setup, or integration
+                projects with defined scope and milestones.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Monthly Support Plans</h3>
+              <p>
+                For businesses that need recurring support, updates, troubleshooting, and continuous
+                optimization of existing systems.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Business Process Advisory</h3>
+              <p>
+                For leadership teams that need a technical roadmap and process recommendations before full
+                implementation.
+              </p>
+            </article>
+          </div>
           <div class="contact-grid">
             <div>
               <h2>Company Details</h2>
@@ -46,12 +70,48 @@
               </ul>
             </div>
             <div>
-              <h2>Quick Message</h2>
+              <h2>Service Intake Form</h2>
               <form action="mailto:info@epicascent.com" method="post" enctype="text/plain">
+                <label for="company">Company Name</label>
+                <input id="company" name="company_name" type="text" placeholder="Your company name" required />
+                <label for="website">Company Website</label>
+                <input id="website" name="company_website" type="url" placeholder="https://yourcompany.com" />
                 <label for="name">Full Name</label>
                 <input id="name" name="name" type="text" placeholder="Your name" required />
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" placeholder="you@company.com" required />
+                <label for="phone">Direct Phone</label>
+                <input id="phone" name="phone" type="tel" placeholder="+1 (___) ___-____" />
+                <label for="service_type">Service Needed</label>
+                <select id="service_type" name="service_type" required>
+                  <option value="">Select a service</option>
+                  <option>AI Automation Implementation</option>
+                  <option>IT Department Setup / Optimization</option>
+                  <option>Software Integration & Reporting</option>
+                  <option>Monthly Managed Support</option>
+                  <option>Business Process Advisory</option>
+                </select>
+                <label for="engagement">Engagement Type</label>
+                <select id="engagement" name="engagement_type" required>
+                  <option value="">Select engagement type</option>
+                  <option>Project-Based</option>
+                  <option>Monthly Support Plan</option>
+                  <option>Not Sure Yet</option>
+                </select>
+                <label for="timeline">Expected Timeline</label>
+                <input id="timeline" name="timeline" type="text" placeholder="Example: Start in 2 weeks" />
+                <label for="budget">Estimated Budget Range (USD)</label>
+                <select id="budget" name="budget_range">
+                  <option value="">Select budget range</option>
+                  <option>Under $1,000</option>
+                  <option>$1,000 - $5,000</option>
+                  <option>$5,000 - $15,000</option>
+                  <option>$15,000+</option>
+                </select>
+                <label for="tools">Current Tools / Platforms</label>
+                <input id="tools" name="current_tools" type="text" placeholder="CRM, ERP, Sheets, help desk tools, etc." />
+                <label for="outcome">Desired Business Outcome</label>
+                <textarea id="outcome" name="desired_outcome" placeholder="What results do you want from this service?" required></textarea>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Tell us what you need..." required></textarea>
                 <button type="submit" class="btn">Send Message</button>
