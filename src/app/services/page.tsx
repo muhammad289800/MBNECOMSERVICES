@@ -249,6 +249,95 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      
+      {/* Products & Projects */}
+      <section className="py-24 border-t border-white/5 bg-dark-card/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="text-accent text-sm font-semibold uppercase tracking-wider">
+              Our Products
+            </span>
+            <h2 className="mt-4 text-4xl sm:text-5xl font-bold">
+              Software That <span className="gradient-text">Scales</span>
+            </h2>
+            <p className="mt-6 text-muted text-lg leading-relaxed">
+              Beyond client services, we build and maintain our own suite of powerful software products designed to solve complex business problems.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
+            {/* TGAutomation Project */}
+            <div className="gradient-border glow rounded-2xl overflow-hidden bg-dark">
+              <div className="grid grid-cols-1 md:grid-cols-5 h-full">
+                <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
+                  <div className="flex items-center gap-3 mb-4">
+                    <h3 className="text-3xl font-bold text-white">TGAutomation.org</h3>
+                    <span className="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-semibold uppercase tracking-wider border border-green-500/20">Live</span>
+                  </div>
+                  <p className="text-slate-400 text-lg leading-relaxed mb-8">
+                    An advanced, AI-powered automation platform for Telegram and WhatsApp. We engineered this suite to handle massive scale marketing, intelligent group discovery, and seamless multi-account session management.
+                  </p>
+                  
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                    <div>
+                      <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                        <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        Discovery Engine
+                      </h4>
+                      <p className="text-sm text-slate-400">Multi-backend AI search using DuckDuckGo, Bing, TGStat, and SearcheeBot to find high-value target groups.</p>
+                    </div>
+                    <div>
+                      <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                        <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        Smart Scheduling
+                      </h4>
+                      <p className="text-sm text-slate-400">Automated broadcast campaigns with precise flood-wait management and customizable intervals.</p>
+                    </div>
+                    <div>
+                      <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                        <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>
+                        Keyword Triggers
+                      </h4>
+                      <p className="text-sm text-slate-400">Active monitoring of chats to send immediate, relevant replies when users mention specific keywords.</p>
+                    </div>
+                    <div>
+                      <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                        <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                        Secure Architecture
+                      </h4>
+                      <p className="text-sm text-slate-400">End-to-end security for Telegram string sessions and WhatsApp Web device pairings.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-auto pt-6 border-t border-white/10 flex flex-wrap items-center gap-3">
+                    <span className="text-xs font-medium text-slate-500 uppercase tracking-wider mr-2">Tech Stack:</span>
+                    <span className="px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-medium">Python</span>
+                    <span className="px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-medium">Node.js</span>
+                    <span className="px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-medium">Flask</span>
+                    <span className="px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-medium">Telethon</span>
+                    <span className="px-3 py-1 rounded-full bg-white/5 text-slate-300 text-xs font-medium">Baileys WA</span>
+                  </div>
+                </div>
+                
+                <div className="md:col-span-2 bg-gradient-to-br from-primary/20 to-accent/10 border-l border-white/5 flex flex-col items-center justify-center p-8 min-h-[300px]">
+                  <div className="w-24 h-24 rounded-2xl gradient-bg flex items-center justify-center mb-6 shadow-[0_0_40px_rgba(108,99,255,0.4)]">
+                    <svg className="w-12 h-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <h4 className="text-xl font-bold text-white text-center mb-2">Automate at Scale</h4>
+                  <p className="text-slate-400 text-center text-sm mb-8">Reach thousands of targeted users across messaging platforms automatically.</p>
+                  <a href="https://tgautomation.org" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-white font-medium transition-colors w-full text-center">
+                    View Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* CTA */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
