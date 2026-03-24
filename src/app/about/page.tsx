@@ -225,6 +225,63 @@ export default function AboutPage() {
         </div>
       </section>
 
+      
+      {/* Portfolio & Projects */}
+      <section className="py-24 border-t border-white/5 bg-dark-card/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="text-accent text-sm font-semibold uppercase tracking-wider">
+              Our Portfolio
+            </span>
+            <h2 className="mt-4 text-4xl sm:text-5xl font-bold">
+              Engineering <span className="gradient-text">Excellence</span>
+            </h2>
+            <p className="mt-6 text-muted text-lg leading-relaxed">
+              We don't just build solutions for clients; we create our own enterprise-grade software to push the boundaries of what's possible with automation.
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <div className="gradient-border glow rounded-2xl overflow-hidden bg-dark/80 p-8 md:p-12 relative">
+              <div className="absolute top-0 right-0 p-8 opacity-10">
+                <svg className="w-48 h-48" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+              </div>
+              <div className="relative z-10">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-green-500/10 text-green-400 text-sm font-semibold mb-6 w-fit border border-green-500/20">
+                  Live Product
+                </div>
+                <h3 className="text-3xl font-bold text-white mb-4">TGAutomation.org</h3>
+                <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-2xl">
+                  A comprehensive automation suite designed for high-scale marketing on Telegram and WhatsApp. Built with a complex Python/Node.js microservices architecture to handle multi-session management securely.
+                </p>
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-center gap-3 text-slate-400">
+                    <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <span>Multi-backend AI Group Discovery (TGStat, Bing, SearcheeBot)</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-slate-400">
+                    <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <span>Automated broadcast scheduling with flood-wait protection</span>
+                  </div>
+                  <div className="flex items-center gap-3 text-slate-400">
+                    <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <span>Keyword-triggered auto-reply monitoring system</span>
+                  </div>
+                </div>
+                <a href="https://tgautomation.org" target="_blank" rel="noopener noreferrer" className="inline-flex px-6 py-3 gradient-bg rounded-lg text-white font-semibold hover:opacity-90 transition-opacity items-center gap-2">
+                  Explore TGAutomation
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
