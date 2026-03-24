@@ -271,11 +271,11 @@ export default function ServicesPage() {
               <div className="grid grid-cols-1 md:grid-cols-5 h-full">
                 <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
                   <div className="flex items-center gap-3 mb-4">
-                    <h3 className="text-3xl font-bold text-white">TGAutomation.org</h3>
+                    <h3 className="text-3xl font-bold text-white">tgautomation.org</h3>
                     <span className="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-semibold uppercase tracking-wider border border-green-500/20">Live</span>
                   </div>
                   <p className="text-slate-400 text-lg leading-relaxed mb-8">
-                    An advanced, AI-powered automation platform for Telegram and WhatsApp. We engineered this suite to handle massive scale marketing, intelligent group discovery, and seamless multi-account session management.
+                    An advanced, AI-powered automation platform for Telegram, WhatsApp, and Discord. We engineered this suite to handle massive scale marketing, intelligent group discovery, and seamless multi-account session management.
                   </p>
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
@@ -305,7 +305,7 @@ export default function ServicesPage() {
                         <svg className="w-5 h-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
                         Secure Architecture
                       </h4>
-                      <p className="text-sm text-slate-400">End-to-end security for Telegram string sessions and WhatsApp Web device pairings.</p>
+                      <p className="text-sm text-slate-400">End-to-end security for Telegram string sessions, WhatsApp Web device pairings, and Discord tokens.</p>
                     </div>
                   </div>
                   

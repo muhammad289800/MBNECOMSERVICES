@@ -179,7 +179,7 @@ export default function Home() {
               Featured Product
             </span>
             <h2 className="mt-4 text-4xl sm:text-5xl font-bold">
-              Telegram & WhatsApp <span className="gradient-text">Automation Hub</span>
+              Telegram, WhatsApp & Discord <span className="gradient-text">Automation Hub</span>
             </h2>
             <p className="mt-6 text-muted text-lg leading-relaxed">
               Meet our flagship product: a powerful, multi-platform marketing and discovery engine designed to scale your community outreach on autopilot.
@@ -197,9 +197,9 @@ export default function Home() {
                   Live in Production
                 </div>
                 
-                <h3 className="text-3xl font-bold mb-4 text-white">TGAutomation.org</h3>
+                <h3 className="text-3xl font-bold mb-4 text-white">tgautomation.org</h3>
                 <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-                  The ultimate marketing suite for Telegram and WhatsApp. Discover high-value groups, automate broadcasts, and manage multiple accounts from a single, beautiful dashboard.
+                  The ultimate marketing suite for Telegram, WhatsApp, and Discord. Discover high-value groups, automate broadcasts, and manage multiple accounts from a single, beautiful dashboard.
                 </p>
                 
                 <ul className="space-y-4 mb-10">
@@ -218,7 +218,7 @@ export default function Home() {
                     </svg>
                     <div>
                       <strong className="text-slate-200 block mb-1">Multi-Account Management</strong>
-                      <span className="text-slate-400 text-sm leading-relaxed">Manage multiple Telegram sessions and WhatsApp Web instances securely from one place with QR code auth.</span>
+                      <span className="text-slate-400 text-sm leading-relaxed">Manage multiple Telegram sessions, WhatsApp Web instances, and Discord accounts securely from one place with QR code auth.</span>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">

@@ -252,9 +252,9 @@ export default function AboutPage() {
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-green-500/10 text-green-400 text-sm font-semibold mb-6 w-fit border border-green-500/20">
                   Live Product
                 </div>
-                <h3 className="text-3xl font-bold text-white mb-4">TGAutomation.org</h3>
+                <h3 className="text-3xl font-bold text-white mb-4">tgautomation.org</h3>
                 <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-2xl">
-                  A comprehensive automation suite designed for high-scale marketing on Telegram and WhatsApp. Built with a complex Python/Node.js microservices architecture to handle multi-session management securely.
+                  A comprehensive automation suite designed for high-scale marketing on Telegram, WhatsApp, and Discord. Built with a complex Python/Node.js microservices architecture to handle multi-session management securely.
                 </p>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center gap-3 text-slate-400">
