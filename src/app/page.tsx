@@ -170,6 +170,127 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* Featured Project Section */}
+      <section className="py-24 bg-dark-card/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="text-accent text-sm font-semibold uppercase tracking-wider">
+              Featured Product
+            </span>
+            <h2 className="mt-4 text-4xl sm:text-5xl font-bold">
+              Telegram & WhatsApp <span className="gradient-text">Automation Hub</span>
+            </h2>
+            <p className="mt-6 text-muted text-lg leading-relaxed">
+              Meet our flagship product: a powerful, multi-platform marketing and discovery engine designed to scale your community outreach on autopilot.
+            </p>
+          </div>
+
+          <div className="gradient-border p-1 glow bg-dark/40 overflow-hidden rounded-2xl">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+              <div className="p-10 lg:p-14 flex flex-col justify-center">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-green-500/10 text-green-400 text-sm font-semibold mb-6 w-fit">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                  </span>
+                  Live in Production
+                </div>
+                
+                <h3 className="text-3xl font-bold mb-4 text-white">TGAutomation.org</h3>
+                <p className="text-slate-400 text-lg mb-8 leading-relaxed">
+                  The ultimate marketing suite for Telegram and WhatsApp. Discover high-value groups, automate broadcasts, and manage multiple accounts from a single, beautiful dashboard.
+                </p>
+                
+                <ul className="space-y-4 mb-10">
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <strong className="text-slate-200 block mb-1">Smart Group Discovery</strong>
+                      <span className="text-slate-400 text-sm leading-relaxed">Find hyper-relevant Telegram groups using AI relevance scoring, DuckDuckGo, Bing, TGStat, and SearcheeBot integrations.</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <strong className="text-slate-200 block mb-1">Multi-Account Management</strong>
+                      <span className="text-slate-400 text-sm leading-relaxed">Manage multiple Telegram sessions and WhatsApp Web instances securely from one place with QR code auth.</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <strong className="text-slate-200 block mb-1">Automated Campaigns</strong>
+                      <span className="text-slate-400 text-sm leading-relaxed">Schedule interval or daily broadcasts. Advanced flood-wait protection and smart pacing to keep your accounts safe.</span>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <svg className="w-6 h-6 text-accent shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div>
+                      <strong className="text-slate-200 block mb-1">Keyword-Triggered Replies</strong>
+                      <span className="text-slate-400 text-sm leading-relaxed">Automatically scan messages in your joined groups and send targeted replies when users mention specific keywords.</span>
+                    </div>
+                  </li>
+                </ul>
+
+                <div className="flex flex-wrap gap-4">
+                  <a href="https://tgautomation.org" target="_blank" rel="noopener noreferrer" className="px-6 py-3 gradient-bg rounded-lg text-white font-semibold hover:opacity-90 transition-opacity flex items-center gap-2">
+                    Visit TGAutomation
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              
+              <div className="bg-gradient-to-br from-primary/10 to-accent/5 flex items-center justify-center p-8 lg:p-12 relative overflow-hidden border-l border-white/5">
+                {/* Abstract tech illustration replacing a literal screenshot */}
+                <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+                <div className="relative w-full max-w-md aspect-square">
+                  <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl animate-pulse"></div>
+                  <div className="relative h-full w-full rounded-2xl border border-white/10 bg-dark-card/80 backdrop-blur-sm shadow-2xl p-6 flex flex-col">
+                    <div className="flex items-center gap-2 mb-6 border-b border-white/5 pb-4">
+                      <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                      <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                      <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                      <div className="ml-2 text-xs font-mono text-slate-500">tgautomation-dashboard</div>
+                    </div>
+                    <div className="flex-1 space-y-4">
+                      <div className="flex gap-4">
+                        <div className="w-1/3 h-20 rounded-lg bg-primary/20 border border-primary/30 flex flex-col justify-center items-center">
+                          <span className="text-2xl font-bold text-white">12</span>
+                          <span className="text-xs text-slate-400">Accounts</span>
+                        </div>
+                        <div className="w-1/3 h-20 rounded-lg bg-accent/20 border border-accent/30 flex flex-col justify-center items-center">
+                          <span className="text-2xl font-bold text-white">450</span>
+                          <span className="text-xs text-slate-400">Groups</span>
+                        </div>
+                        <div className="w-1/3 h-20 rounded-lg bg-green-500/20 border border-green-500/30 flex flex-col justify-center items-center">
+                          <span className="text-2xl font-bold text-white">8k</span>
+                          <span className="text-xs text-slate-400">Messages</span>
+                        </div>
+                      </div>
+                      <div className="w-full h-12 rounded-lg bg-white/5 mt-4"></div>
+                      <div className="w-full h-12 rounded-lg bg-white/5"></div>
+                      <div className="w-3/4 h-12 rounded-lg bg-white/5"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* About Snippet */}
       <section className="py-24 bg-dark-card/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
